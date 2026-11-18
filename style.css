@@ -1,25 +1,31 @@
 body {
     background-image: url('flower.jpg');
-    background-color: #2196f3;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #ffccd5;
     font-family: Arial, Courier, sans-serif;
 }
 
 .main-title {
-    color: #ff4d6d;
+    color: #ffffff;
+    background-color: #ff4d6d;
     font-size: 45px;
     text-align: center;
+    padding: 10px;
 }
 
 .column {
-    width: 30%;
+    width: 32.5%;
     display: inline-block;
     vertical-align: top;
 }
 
 h2 {
-    color: #ffbe0b;
+    color: #ffffff;
+    background-color: #c9184a;
     text-align: center;
     font-size: 25px;
+    padding: 8px;
 }
 
 .box {
