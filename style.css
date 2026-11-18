@@ -1,1 +1,101 @@
+/* סעיף 2 ו-10: תמונת רקע וצבעים חיים */
+body {
+    background-image: url('flower.jpg'); /* תמונת הרקע שלך */
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
 
+/* כותרת עליונה ותחתונה */
+header, footer {
+    text-align: center;
+    padding: 15px;
+}
+
+.main-title {
+    color: #ff4d6d; /* ורוד-אדום חי */
+    font-size: 48px;
+    text-shadow: 2px 2px 0px #ffffff;
+    margin: 0;
+}
+
+footer p {
+    background-color: #ffccd5;
+    color: #590d22;
+    display: inline-block;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* סעיף 4: הפיכת הסקשנים לשלוש עמודות זה לצד זה */
+.columns-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.column {
+    width: 32%;
+}
+
+/* כותרות העמודות (מעל הקופסאות, כמו בדוגמה) */
+.column h2 {
+    color: #ffbe0b; /* צהוב חם */
+    text-align: center;
+    font-size: 28px;
+    text-shadow: 1px 1px 2px #000000;
+    margin-bottom: 10px;
+}
+
+/* הקופסאות הצבעוניות של התוכן */
+.box {
+    background-color: #fff0f3; /* ורוד בהיר מאוד ורך */
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* עיצוב הרשימות והתמונה */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+img {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+    display: block;
+}
+
+/* סעיף 9: הדגמת border ו-padding בעמודה השלישית */
+.border-demo {
+    background-color: #ffccd5; /* צבע רקע שונה */
+    border: 4px dashed #c9184a; /* עובי מסגרת בצבע שונה */
+    padding: 20px; /* ריווח פנימי עבה */
+    margin-top: 20px;
+    text-align: center;
+    color: #590d22;
+    font-weight: bold;
+}
+
+/* סעיף 11: שינוי צבע רקע בריחוף עכבר על קישורים */
+a {
+    color: #800f2f;
+    text-decoration: underline;
+    padding: 3px 6px;
+}
+
+a:hover {
+    background-color: #ffbe0b; /* צבע רקע משתנה בריחוף */
+    color: #000000;
+    border-radius: 4px;
+}
